@@ -1,0 +1,19 @@
+# Ignore Environment Variables (Security Risk!)
+.env
+backend/.env
+frontend/.streamlit/secrets.toml
+
+# Ignore Virtual Environments (Too big, system specific)
+.venv/
+backend/.venv/
+venv/
+ENV/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Temporary Uploads & Data
+backend/tmp_uploads/
+backend/data/
+frontend/chat_history.json
